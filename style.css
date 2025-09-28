@@ -53,8 +53,13 @@ footer {
     background-color: #0a0a25;
     color: #fe938c;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     font-size: 14px;
+}
+
+footer ul
+{
+    list-style-type: none;
 }
 
 .nav-geral
@@ -62,10 +67,11 @@ footer {
     grid-area: header;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     min-width: 80px;
     padding: 10px;
-    background-color: #15616D;
+    background-color: #15616d;
 }
 
 .navigation
@@ -74,24 +80,23 @@ footer {
     padding: 5px;
     min-width: 100px;
     text-decoration: none;
+    text-align: center;
     color: #60993E
 }
 
 .navigation:hover
 {
-    text-decoration: none;
-    color: #60993E
 }
 
 #logo
 {
-    max-width: 5%;
+    max-width: 15%;
 }
 
 #logo img
 {
     max-width: 15%;
-    min-width: 80px;
+    min-width: 100px;
 }
 
 .nav-content
@@ -100,14 +105,23 @@ footer {
     display: flex;
     flex-direction: column;
     min-width: 100px;
-    background-color: #0D3D45;
+    background-color: #00243D;
 }
 
 .content
 {
     grid-area: c;
+    max-height: 75vh;
     margin: 10px;
     padding: 10px;
+    overflow: auto;
+}
+
+.info-content
+{
+    min-width: 100px;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Navigation styles 

@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Início</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-</head>
-<body>
-  <header>
-    <div class="hc">
-      <ul>
-        <li><a href="Main.html">Início</a></li>
-        <li>
-          <a id="selected" href="#">Conteúdo</a>
-          <ul>
-            <li><a href="Text.html">Material de Apoio</a></li>
-            <li><a href="#">Quiz</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </div>
-    <h1>Quiz</h1>
-  </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Início</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
 
-  <main>
-    <div class="butt">
-      <button id="correct" onclick="button(this)">Bla</button>
-      <button id="incorrect" onclick="button(this)">Ble</button>
-      <button id="incorrect" onclick="button(this)">Bli</button>
-      <button id="incorrect" onclick="button(this)">Blo</button>
-    </div>
-  </main>
+    <body>
+        <header class="nav-geral">
+            <a id="logo" href="index.html" class="navigation">
+                <img src="imagens/logo.jpg" alt="Logo">
+            </a> 
+            <a href="index.html" class="navigation">Pesquisa</a>
+            <a href="quiz.html" class="navigation">Quiz</a>
+            <a href="faq.html" class="navigation">Perguntas frequentes</a>
+            <a href="sobre.html" class="navigation">Sobre</a>
+        </header>
 
-  <footer>
-    <p>&copy; 2025.Todos os direitos reservados.</p>
-  </footer>
-</body>
+        <nav class="nav-content">
+            <a href="#q1">Questão 1</a>
+            <a href="#q2">Questão 2</a>
+            <a href="#q3">Questão 3</a>
+            <a href="#q4">Questão 4</a>
+            <a href="#q5">Questão 5</a>
+        </nav>
+
+        <main class="content">
+            <section id="q1">
+                <h3>Questão 1</h3>
+                <p>
+                    O que são impactos digitais?
+                </p>
+                <div class="butt">
+                    <button id="correct" onclick="button(this)">Bla</button>
+                    <button id="incorrect" onclick="button(this)">Ble</button>
+                    <button id="incorrect" onclick="button(this)">Bli</button>
+                    <button id="incorrect" onclick="button(this)">Blo</button>
+                </div>
+            </section> 
+        </main>
+
+    
+    </body>
 </html>
