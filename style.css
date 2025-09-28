@@ -16,7 +16,10 @@
 body {
     position: relative;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-areas:
+        'header header header'
+        'nav c c'
+        'footer footer footer';
     margin: 0;
     padding: 0;
     font-family: "Roboto Mono", monospace;
@@ -24,20 +27,52 @@ body {
     color: #a9fff7;
 }
 
-nav
+/* Headings */
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px auto;
+  margin-top: 0px;
+  color: #f3938c;
+}
+
+h2 {
+  font-size: 24px;
+  color: #f3938c;
+  margin-top: 30px;
+}
+/* Paragraphs */
+p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #a9fff7;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #0a0a25;
+    color: #fe938c;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.nav-geral
 {
-    position: fixed;
-    grid-row: 1 / span 3;
-    position: relative;
+    grid-area: header;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     min-width: 80px;
-    padding: 20px;
+    padding: 10px;
     background-color: #15616D;
 }
 
 .navigation
 {
+    margin: 10px;
+    padding: 5px;
+    min-width: 100px;
     text-decoration: none;
     color: #60993E
 }
@@ -48,24 +83,43 @@ nav
     color: #60993E
 }
 
-header
+#logo
 {
-    min-width: 100px;
-    padding: 20px;
+    max-width: 5%;
 }
 
-section
+#logo img
 {
-    min-width: 100px;
-    padding: 20px;
+    max-width: 15%;
+    min-width: 80px;
 }
 
-img
+.nav-content
 {
-    max-width: 50%;
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
     min-width: 100px;
+    background-color: #0D3D45;
 }
+
+.content
+{
+    grid-area: c;
+    margin: 10px;
+    padding: 10px;
+}
+
 /* Navigation styles 
+Header container
+.hc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
 ul {
     border-radius: 4px;
     list-style: none;
@@ -137,29 +191,6 @@ ul li ul li a:hover {
   color: white;
 }
 */
-/* Header container */
-.hc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  background-color: #f8f8f8;
-}
-
-/* Headings */
-h1 {
-  font-size: 36px;
-  text-align: center;
-  margin: 20px auto;
-  margin-top: 0px;
-  color: #f3938c;
-}
-
-h2 {
-  font-size: 24px;
-  color: #f3938c;
-  margin-top: 30px;
-}
 
 /* Image banner 
 .flag {
@@ -226,17 +257,3 @@ Section
   color: #656178;
 }
 */
-/* Paragraphs */
-p {
-  margin-bottom: 20px;
-  line-height: 1.6;
-  color: #a9fff7;
-}
-
-footer {
-  background-color: #0a0a25;
-  color: #fe938c;
-  text-align: center;
-  padding: 15px;
-  font-size: 14px;
-}

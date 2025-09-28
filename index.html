@@ -3,27 +3,33 @@
 <html lang="pt-br">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Testando</title>
+        <title>Pegada Digital Consciente</title>
         <link href="style.css" rel="stylesheet">
     </head>
 
     <body>
-        <nav>
-            <a href="index.html" class="navigation">Início</a>
-            <a href="sobre.html" class="navigation">Sobre</a>
+        <header class="nav-geral">
+            <a id="logo" href="index.html" class="navigation">
+                <img src="imagens/logo.jpg" alt="Logo">
+            </a> 
+            <a href="index.html" class="navigation">Pesquisa</a>
             <a href="quiz.html" class="navigation">Quiz</a>
-            <a href="info.html" class="navigation">Informações de Apoio</a>
             <a href="faq.html" class="navigation">Perguntas frequentes</a>
-        </nav>
-
-        <header>
-            <h1>Introdução</h1>
+            <a href="sobre.html" class="navigation">Sobre</a>
         </header>
 
-        <section>
-            <main>
+        <nav class="nav-content">
+            <a href="#intro" class="navigation">Introdução</a>
+            <a href="#problema" class="navigation">O Problema</a>
+            <a href="#solucao" class="navigation">Soluções</a>
+        </nav>
+
+
+        <section class="content">
+            <section id="intro">
+                <header><h1>Introdução</h1></header>
                 <h2>O que é pegada digital?</h2>
-                <img src="imagens/pegada.png" alt="pegada digital">
+                <img class="info-content" src="imagens/pegada.png" alt="pegada digital">
                 <p>
                     A chamada “pegada digital” refere-se ao conjunto de rastros e informações deixados pelos usuários ao navegar na
                     internet, tanto de forma ativa, por meio de publicações, cadastros e interações, quanto de forma passiva, pela
@@ -31,16 +37,44 @@
                     representam apenas registros técnicos: moldam identidades digitais, influenciam percepções sociais e são
                     utilizados por empresas e plataformas para direcionar conteúdos e prever comportamentos.
                 </p>
-            </main>
+            </section>
+            <section id="problema">
+                <header><h1>O Problema</h1></header>
+                <h2>O que é pegada digital?</h2>
+                <img class="info-content" src="imagens/pegada.png" alt="pegada digital">
+                <p>
+                    A chamada “pegada digital” refere-se ao conjunto de rastros e informações deixados pelos usuários ao navegar na
+                    internet, tanto de forma ativa, por meio de publicações, cadastros e interações, quanto de forma passiva, pela
+                    coleta automática de dados como localização, cookies, endereços IP e histórico de navegação. Esses rastros não
+                    representam apenas registros técnicos: moldam identidades digitais, influenciam percepções sociais e são
+                    utilizados por empresas e plataformas para direcionar conteúdos e prever comportamentos.
+                </p>
+            </section>
+            <section id="solucao">
+                <header><h1>Soluções</h1></header>
+                <h2>O que é pegada digital?</h2>
+                <img class="info-content" src="imagens/pegada.png" alt="pegada digital">
+                <p>
+                    A chamada “pegada digital” refere-se ao conjunto de rastros e informações deixados pelos usuários ao navegar na
+                    internet, tanto de forma ativa, por meio de publicações, cadastros e interações, quanto de forma passiva, pela
+                    coleta automática de dados como localização, cookies, endereços IP e histórico de navegação. Esses rastros não
+                    representam apenas registros técnicos: moldam identidades digitais, influenciam percepções sociais e são
+                    utilizados por empresas e plataformas para direcionar conteúdos e prever comportamentos.
+                </p>
+            </section>
         </section>
 
         <footer>
-            Trabalho de Geografia integrado a Informática
-            Grupo:
-            Arthur Jesus Nascimento
-            Davi Andrade dos Santos Rodrigues Oliveira
-            Davi Farias de Andrade
-            Vitor Hugo dos Santos
+            <div id="info-grupo">
+                Trabalho de Geografia integrado a Informática
+                Grupo:
+                Arthur Jesus Nascimento
+                Davi Andrade dos Santos Rodrigues Oliveira
+                Davi Farias de Andrade
+                Vitor Hugo dos Santos
+            </div>
+
+            <a href="https://cbt.ifsp.edu.br/">Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, Campus Cubatão</a>
         </footer>
     </body>
 </html>
