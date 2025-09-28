@@ -1,0 +1,56 @@
+Textos de apoio
+
+A sociedade contemporânea é marcada por um intenso processo de digitalização, no qual a vida cotidiana,
+profissional e acadêmica está cada vez mais dependente de recursos tecnológicos. No entanto, um dos desafios
+centrais nesse contexto é a ausência de conhecimento aprofundado sobre os impactos digitais e a resistência de
+muitos indivíduos em modificar seus hábitos de consumo e interação online.
+
+A chamada “pegada digital” refere-se ao conjunto de rastros e informações deixados pelos usuários ao navegar na
+internet, tanto de forma ativa, por meio de publicações, cadastros e interações, quanto de forma passiva, pela
+coleta automática de dados como localização, cookies, endereços IP e histórico de navegação. Esses rastros não
+representam apenas registros técnicos: moldam identidades digitais, influenciam percepções sociais e são
+utilizados por empresas e plataformas para direcionar conteúdos e prever comportamentos.
+
+Estudos demonstram que, embora jovens estejam imersos em ambientes digitais, muitas vezes desconhecem a
+complexidade das implicações sociais, profissionais e ambientais relacionadas a essa exposição. O armazenamento
+massivo de dados, por exemplo, exige grande consumo energético para a manutenção de servidores, gerando impactos
+ambientais diretos. A resistência à mudança de hábitos digitais decorre, em parte, da percepção de que práticas
+cotidianas como revisar configurações de privacidade, excluir dados desnecessários ou limitar publicações são
+irrelevantes, quando, na realidade, representam medidas fundamentais de proteção e sustentabilidade.
+
+        Estratégias educacionais para incentivar práticas digitais sustentáveis entre jovens
+        
+          Para enfrentar esse cenário, a educação digital sustentável deve ser incorporada de maneira sistemática em
+          espaços escolares, universitários e comunitários. Estratégias educacionais eficazes podem incluir:
+        
+       
+      Currículos de literacia digital: Inserir disciplinas que abordem privacidade, ética, pegada
+          digital e impactos ambientais do uso da tecnologia.
+          Projetos interdisciplinares: Promover atividades práticas em que estudantes avaliem sua
+          própria pegada digital e elaborem planos de redução e conscientização.
+          Campanhas de sensibilização:Utilizar mídias sociais e ambientes escolares para difundir
+          informações sobre boas práticas, como uso de senhas seguras, exclusão de dados obsoletos e consumo consciente de
+          serviços digitais.
+          <li><strong>Gamificação e tecnologias educacionais:</strong> Implementar jogos e plataformas que estimulem
+          comportamentos digitais responsáveis de forma lúdica e motivadora.</li>
+          <li><strong>Formação docente:</strong> Capacitar professores para atuarem como mediadores críticos no processo de
+          educação digital sustentável.</li>
+        </ul>
+        <p>
+          Ao integrar esses elementos em práticas pedagógicas, cria-se um espaço de reflexão e ação no qual jovens podem
+          desenvolver competências críticas, técnicas e éticas para gerir sua presença online de maneira consciente e
+          sustentável. Dessa forma, a resistência à mudança de hábitos tende a ser substituída por uma cultura digital
+          mais responsável e alinhada aos desafios do século XXI.
+        </p>
+      </section>
+    </article>
+
+    <!-- Bibliografia -->
+    <div class="references">
+      <h3>Referências</h3>
+      <ul>
+        <li>AVG.com. (2023). <em>What is a digital footprint?</em> Disponível em: https://www.avg.com</li>
+        <li>EPALE - European Commission. (2023). <em>Digital Competence and Online Identity</em>. Disponível em: https://epale.ec.europa.eu</li>
+        <li>Magazine Columbia. (2023). <em>Digital Traces and Identity</em>. Disponível em: https://magazine.columbia.edu</li>
+        <li>SAGE Journals. (2022). <em>Digital Literacy and Youth</em>. Disponível em: https://journals.sagepub.com</li>
+        <li>The Guardian. (2023). <em>The environmental cost of digital data</em>. Disponível em: https://www.theguardian.com</li>
