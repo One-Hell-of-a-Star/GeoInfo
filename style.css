@@ -64,6 +64,7 @@ footer ul
     list-style-type: none;
 }
 
+/* Barra principal de navegação */
 .nav-geral
 {
     grid-area: header;
@@ -88,6 +89,7 @@ footer ul
 
 .navigation:hover
 {
+    background-color: black;
 }
 
 #logo
@@ -95,12 +97,18 @@ footer ul
     max-width: 15%;
 }
 
+#logo:hover
+{
+    max-width: 15%;
+    background-color: #15616d;
+}
 #logo img
 {
     max-width: 15%;
     min-width: 100px;
 }
 
+/* Barra de navegação do conteúdo */
 .nav-content
 {
     grid-area: nav;
@@ -110,6 +118,7 @@ footer ul
     background-color: #00243D;
 }
 
+/* Conteúdo */
 .content
 {
     grid-area: c;
