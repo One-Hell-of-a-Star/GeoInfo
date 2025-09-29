@@ -12,174 +12,6 @@
   box-sizing: border-box;
 }
 
-
-/* Body */
-body {
-    position: relative;
-    display: grid;
-    grid-template-areas:
-        'header header header'
-        'nav c c'
-        'footer footer footer';
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto Mono", monospace;
-    background-color: #001524;
-    color: #a9fff7;
-}
-
-/* Headings */
-h1 {
-  font-size: 36px;
-  text-align: center;
-  margin: 20px auto;
-  margin-top: 0px;
-  color: #f3938c;
-}
-
-h2 {
-  font-size: 24px;
-  color: #f3938c;
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
-
-/* Paragraphs */
-p {
-  margin-bottom: 20px;
-  line-height: 1.6;
-  color: #a9fff7;
-}
-
-footer {
-    grid-area: footer;
-    background-color: #0a0a25;
-    color: #fe938c;
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
-}
-
-footer ul
-{
-    list-style-type: none;
-}
-
-/* Barra principal de navegação */
-.nav-geral
-{
-    grid-area: header;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    min-width: 80px;
-    padding: 10px;
-    background-color: #15616d;
-}
-
-.navigation
-{
-    margin: 10px;
-    padding: 5px;
-    min-width: 100px;
-    text-decoration: none;
-    text-align: center;
-    color: #60993E
-}
-
-.navigation:hover
-{
-    background-color: black;
-}
-
-#logo
-{
-    max-width: 15%;
-}
-
-#logo:hover
-{
-    max-width: 15%;
-    background-color: #15616d;
-}
-#logo img
-{
-    max-width: 15%;
-    min-width: 100px;
-}
-
-/* Barra de navegação do conteúdo */
-.nav-content
-{
-    grid-area: nav;
-    display: flex;
-    flex-direction: column;
-    min-width: 100px;
-    background-color: #00243D;
-}
-
-/* Conteúdo */
-.content
-{
-    grid-area: c;
-    max-height: 75vh;
-    margin: 10px;
-    padding: 10px;
-    overflow: auto;
-}
-
-.info-content
-{
-    min-width: 200px;
-    max-width: 100%;
-    height: auto;
-}
-
-#pegada
-{
-    max-width: 20%;
-    height: auto;
-}
-
-.img-text
-{
-    display: inline;
-    justify-content: space-around;
-}
-
-
- /* Button */
-.butt {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.butt button {
-  font-family: "Roboto Mono", monospace;
-  width: 500px;
-  height: 50px;
-  background-color: white;
-  border-color: darkgrey;
-  color: black;
-  border-radius: 10px;
-  border-width: 3px;
-  margin: 2px auto;
-  cursor: pointer;
-  display: inline-block;
-  transition-duration: 0.4s;
-}
-
-.butt button:hover {
-  width: 490px;
-  color: white;
-  background-color: #19183B;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
 @media only screen and (max-width: 700px)
 {
     body
@@ -200,6 +32,176 @@ footer ul
     .nav-content
     {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 700px)
+{
+    /* Body */
+    body {
+        position: relative;
+        display: grid;
+        grid-template-areas:
+            'header header header'
+            'nav c c'
+            'footer footer footer';
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto Mono", monospace;
+        background-color: #001524;
+        color: #a9fff7;
+    }
+
+    /* Headings */
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      margin: 20px auto;
+      margin-top: 0px;
+      color: #f3938c;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #f3938c;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    /* Paragraphs */
+    p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+      color: #a9fff7;
+    }
+
+    footer {
+        grid-area: footer;
+        background-color: #0a0a25;
+        color: #fe938c;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    footer ul
+    {
+        list-style-type: none;
+    }
+
+    /* Barra principal de navegação */
+    .nav-geral
+    {
+        grid-area: header;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 80px;
+        padding: 10px;
+        background-color: #15616d;
+    }
+
+    .navigation
+    {
+        margin: 10px;
+        padding: 5px;
+        min-width: 100px;
+        text-decoration: none;
+        text-align: center;
+        color: #60993E
+    }
+
+    .navigation:hover
+    {
+        background-color: black;
+    }
+
+    #logo
+    {
+        max-width: 15%;
+    }
+
+    #logo:hover
+    {
+        max-width: 15%;
+        background-color: #15616d;
+    }
+    #logo img
+    {
+        max-width: 15%;
+        min-width: 100px;
+    }
+
+    /* Barra de navegação do conteúdo */
+    .nav-content
+    {
+        grid-area: nav;
+        display: flex;
+        flex-direction: column;
+        min-width: 100px;
+        background-color: #00243D;
+    }
+
+    /* Conteúdo */
+    .content
+    {
+        grid-area: c;
+        max-height: 75vh;
+        margin: 10px;
+        padding: 10px;
+        overflow: auto;
+    }
+
+    .info-content
+    {
+        min-width: 200px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #pegada
+    {
+        max-width: 20%;
+        height: auto;
+    }
+
+    .img-text
+    {
+        display: inline;
+        justify-content: space-around;
+    }
+
+
+     /* Button */
+    .butt {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .butt button {
+      font-family: "Roboto Mono", monospace;
+      width: 500px;
+      height: 50px;
+      background-color: white;
+      border-color: darkgrey;
+      color: black;
+      border-radius: 10px;
+      border-width: 3px;
+      margin: 2px auto;
+      cursor: pointer;
+      display: inline-block;
+      transition-duration: 0.4s;
+    }
+
+    .butt button:hover {
+      width: 490px;
+      color: white;
+      background-color: #19183B;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     }
 }
 /* Navigation styles 
