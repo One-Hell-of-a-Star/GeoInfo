@@ -12,6 +12,30 @@
   box-sizing: border-box;
 }
 
+@media only screen and (min-width: 600px)
+{
+    body
+    {
+        position: relative;
+        display: grid;
+        grid-template-areas:
+            'header header header'
+            'c c c'
+            'footer footer footer';
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto Mono", monospace;
+        background-color: #001524;
+        color: #a9fff7;
+    }
+
+    .nav-content
+    {
+        display: none;
+    }
+}
+
+
 /* Body */
 body {
     position: relative;
