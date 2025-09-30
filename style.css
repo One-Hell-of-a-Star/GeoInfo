@@ -48,6 +48,7 @@ h2 {
 
 /* Paragraphs */
 p {
+    margin-top: 10px;
   margin-bottom: 20px;
   line-height: 1.6;
   color: #a9fff7;
@@ -127,6 +128,10 @@ footer ul
 }
 
 /* Conteúdo */
+section
+{
+    margin-bottom: 50px;
+}
 .content
 {
     grid-area: c;
@@ -145,16 +150,24 @@ footer ul
 
 #pegada
 {
-    max-width: 20%;
+    max-width: 100%;
+    min-width: 50px;
     height: auto;
 }
 
 .img-text
 {
-    display: inline;
+    margin-right:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
 }
 
+.img-text p
+{
+    margin: 20px;
+}
 
  /* Button */
 .butt {
@@ -251,6 +264,15 @@ footer ul
         width: 30%;
         height: auto;
         padding: 5px;
+    }
+
+    .img-text
+    {
+        margin-right:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
 
     .butt button {
