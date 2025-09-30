@@ -245,6 +245,16 @@ footer ul
         display:block;
         background-color: #00243D;
     }
+
+    .butt button {
+      width: 95%;
+      height: 15%;
+    }
+
+    .butt button:hover {
+      width: 93%;
+      color: white;
+    }
 }
 
 /* Navigation styles 
